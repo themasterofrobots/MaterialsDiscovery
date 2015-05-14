@@ -6,7 +6,7 @@ MaterialsDiscovery is a set of scripts written by Scott Biesboer, Brian Cabinian
 Materials Discovery requires users to have Python and the PyMatGen library (http://pymatgen.org/) to run. Users must also register on https://www.materialsproject.org/ and obtain a API Key, which should be set as the MAPI_KEY environmental variable.
 
 The main files that users should run and edit are main_getmaterials.py and then find_heterojunctions.py. main_getmaterials.py will fetch the HTL, ETL, and emissive layers from Materials Project. Then find_heterojunction.py will construct heterojunctions out of these layers, and rank them by injection matching.
-The rest of the file are just for testing and reference. No guarantee is made to their readability or functionality.
+The rest of the source files are just for testing and reference. No guarantee is made to their readability or functionality.
 
 Note that there is a long list of features that should be added, and we encourage people to do so.
 1. Use BoltzTraP (Boltzmann Transport Properties) function within Materials Project to calculate effective mass, obtain conductivity
